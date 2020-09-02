@@ -7,7 +7,7 @@ class testCharacters(unittest.TestCase):
 
     def test_FirstLastChar(self):
         word = 'Programacion'
-        self.assertEqual(characters.FirstLastChar(
+        self.assertEqual(characters.firstLastChar(
             word), ('P', 'n'), f'La palabra es {word}')
 
     def test_message(self):
