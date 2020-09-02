@@ -13,11 +13,11 @@ def is_even(num):
 def main(num):
     flag = is_even(num)
     if flag:
-        print(f'El numero {num} es par')
+        return f'El numero {num} es par'
     else:
-        print(f'El numero {num} no es par')
+        return f'El numero {num} no es par'
 
 
 if __name__ == '__main__':
     num = int(input('Ingresa un numero: '))
-    main(num)
+    print(main(num))
