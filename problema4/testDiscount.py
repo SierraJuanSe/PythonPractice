@@ -14,7 +14,7 @@ class TestDiscount(unittest.TestCase):
     def test_message(self):
         price = 100
         day = ['l', 'm', 'M', 'j', 'v', 's', 'd']
-        sol = f'valor descuento: 10, total a pagar: 90'
+        sol = f'valor descuento: 10.0, total a pagar: 90.0'
         self.assertEqual(discount.message(price, day[0]), sol, sol)
 
 
