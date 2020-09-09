@@ -1,3 +1,11 @@
+"""
+Funcion que permite identificar si una frase/palabra es polindroma (se lee igual de izquierda a derecha que de derecha a izquierda)
+
+Input: Frase/Palabra
+Output: True si es polindroma, False en otro caso
+    Salida en pantalla con mensaje informativo
+"""
+
 
 def isPolindrome(word):
     pol = word.upper().replace(" ", "")
