@@ -6,8 +6,12 @@ Implementacion realizada con python 3.8.5
 
 Problemas realizados
 
-* Problema 2: numero par o no
+-   Problema 2: numero par o no
 
-* Problema 3: primer y ultimo caracter de una palabra.
+-   Problema 3: primer y ultimo caracter de una palabra.
 
-* Problema 4: Calcular descuento de producto.
+-   Problema 4: Calcular descuento de producto.
+
+-   Problema 6: Frase/Palabra polindroma
+
+-   Problema 9: Serie de numeros piramide
