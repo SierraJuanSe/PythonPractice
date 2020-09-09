@@ -12,10 +12,10 @@ class TestPolindrome(unittest.TestCase):
 
     def testMessage(self):
         word = 'reconocer'
-        message = f'La palabra {word} es polindroma'
+        message = f'La palabra "{word}" es polindroma'
         self.assertEqual(message, polindrome.message(word))
         word = 'nombre'
-        message = f'La palabra {word} no es polindroma'
+        message = f'La palabra "{word}" no es polindroma'
         self.assertEqual(message, polindrome.message(word))
 
 
