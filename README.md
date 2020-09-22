@@ -15,3 +15,9 @@ Problemas realizados
 -   Problema 6: Frase/Palabra polindroma
 
 -   Problema 9: Serie de numeros piramide
+
+-   Implementacion POO punto y figuras
+    - Para la ejecucion de pruebas unitarias corra este codigo en la terminal
+
+    `python3.8 -m unittest discover pointShapes/`
+      
