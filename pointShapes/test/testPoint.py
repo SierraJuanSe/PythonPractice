@@ -1,5 +1,7 @@
 import unittest
+
 from pointShapes.src.point import Point
+from pointShapes.src.circle import Circle
 
 
 class TestPoint(unittest.TestCase):
@@ -11,4 +13,6 @@ class TestPoint(unittest.TestCase):
         self.assertEqual(2.0, self.p1.distance(self.p2), 'Should be 2.0')
 
     def test_inCircle(self):
-        pass
+        point = Point(1, 1)
+        circle = Circle(2, [Point(0, 0)])
+        self.assertTrue(point.inCircle(circle), msg="Should be True")
