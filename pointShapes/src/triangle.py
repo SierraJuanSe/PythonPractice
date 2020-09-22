@@ -29,7 +29,7 @@ class Triangle(Shape):
         return (s
                 * (s - self.points[0].distance(self.points[1]))
                 * (s - self.points[1].distance(self.points[2]))
-                * (s - self.points[2].distance(self.points[0])))
+                * (s - self.points[2].distance(self.points[0]))) ** (1/2)
 
     def perimeter(self):
         return (self.points[0].distance(self.points[1])
