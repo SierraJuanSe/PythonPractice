@@ -3,8 +3,8 @@ from pointShapes.src.shape import Shape
 
 
 class Circle(Shape):
-    def __init__(self, radius, points):
-        Shape.__init__(points)
+    def __init__(self, radius, points=[]):
+        super().__init__(points)
         self.radius = radius
 
     def area(self):

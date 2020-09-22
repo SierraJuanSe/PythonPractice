@@ -4,7 +4,7 @@ from pointShapes.src.shape import Shape
 
 class Triangle(Shape):
     def __init__(self, points):
-        Shape.__init__(points)
+        super().__init__(points)
 
     def type(self):
         sides = [
