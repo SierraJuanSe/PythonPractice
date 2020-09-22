@@ -10,8 +10,8 @@ class TestCircle(unittest.TestCase):
 
     def test_Area(self):
         self.assertAlmostEqual(
-            12.57, self.circle.area(), msg="Should be almost 12.57")
+            12.57, self.circle.area(), msg="Should be almost 12.57", delta=0.01)
 
     def test_Permeter(self):
         self.assertAlmostEqual(
-            12.57, self.circle.perimeter(), msg="Should be almost 12.57")
+            12.57, self.circle.perimeter(), msg="Should be almost 12.57", delta=0.01)

@@ -20,16 +20,16 @@ class TestTriangle(unittest.TestCase):
 
     def test_Area(self):
         self.assertAlmostEqual(
-            1.73, self.equilateral.area(), msg="Should almost be 1.73")
+            1.73, self.equilateral.area(), msg="Should almost be 1.73", delta=0.01)
         self.assertAlmostEqual(
-            2, self.isosceles.area(), msg="Should almost be 2")
+            2, self.isosceles.area(), msg="Should almost be 2", delta=0.01)
         self.assertAlmostEqual(
-            3, self.scalene.area(), msg="Should almost be 3")
+            3, self.scalene.area(), msg="Should almost be 3", delta=0.01)
 
     def test_Perimeter(self):
         self.assertAlmostEqual(
-            6, self.equilateral.perimeter(), msg="Should almost be 6")
+            6, self.equilateral.perimeter(), msg="Should almost be 6", delta=0.01)
         self.assertAlmostEqual(
-            6.48, self.isosceles.perimeter(), msg="Should almost be 6.48")
+            6.48, self.isosceles.perimeter(), msg="Should almost be 6.48", delta=0.01)
         self.assertAlmostEqual(
-            8.07, self.scalene.perimeter(), msg="Should almost be 8.07")
+            8.07, self.scalene.perimeter(), msg="Should almost be 8.07", delta=0.01)

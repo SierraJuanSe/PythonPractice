@@ -15,8 +15,8 @@ class TestRectangle(unittest.TestCase):
 
     def test_Area(self):
         self.assertAlmostEqual(
-            2.0, self.rectangle.area(), msg="Should be 2")
+            2.0, self.rectangle.area(), msg="Should be 2", delta=0.01)
 
     def test_Perimeter(self):
         self.assertAlmostEqual(
-            6.0, self.rectangle.perimeter(), msg="Should be 6")
+            6.0, self.rectangle.perimeter(), msg="Should be 6", delta=0.01)
